@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ViewUtils.iml" filepath="$PROJECT_DIR$/ViewUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vutils/vutils.iml" filepath="$PROJECT_DIR$/vutils/vutils.iml" />
+    </modules>
+  </component>
+</project>

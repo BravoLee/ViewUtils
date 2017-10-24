@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewUtils</string>
+    <string name="click">点击</string>
+    <string name="long_click">长按</string>
+</resources>
