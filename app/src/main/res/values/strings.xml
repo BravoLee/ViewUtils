@@ -2,4 +2,5 @@
     <string name="app_name">ViewUtils</string>
     <string name="click">点击</string>
     <string name="long_click">长按</string>
+    <string name="hello_utils">你好，utils！</string>
 </resources>

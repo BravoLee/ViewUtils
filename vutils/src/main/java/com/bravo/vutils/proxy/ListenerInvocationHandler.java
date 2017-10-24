@@ -22,6 +22,12 @@ public class ListenerInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return null;
+        String methodName = method.getName();
+        Method metf = methodMap.get(methodName);
+        if (metf != null) {
+            return metf.invoke(context, args);
+        } else {
+            return method.invoke(proxy, args);
+        }
     }
 }
